@@ -138,6 +138,7 @@ I used these suggestions to support my learning while practicing and implementin
 - **Instagram:** [@aazeddijne](https://www.instagram.com/aazeddijne/)
 - **LinkedIn:** [Azeddine Zahraoui](https://www.linkedin.com/in/azeddine-zahraoui-131079431/)
 - **freeCodeCamp:** [@aazeddijne](https://www.freecodecamp.org/aazeddijne)
+- **Frontend Mentor:** [@aazeddijne](https://www.frontendmentor.io/profile/aazeddijne)
 
 ## Acknowledgments
 
