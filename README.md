@@ -12,7 +12,7 @@ The project is a responsive landing page built with HTML, CSS, and JavaScript. I
 - [What I Learned](#what-i-learned)
 - [Continued Development](#continued-development)
 - [AI Collaboration](#ai-collaboration)
-- [Live Demo](#demo)
+- [Live Demo](#live-demo)
 - [Screenshoot](#screenshoot)
 - [Author](#author)
 
@@ -121,6 +121,10 @@ I used these suggestions to support my learning while practicing and implementin
 - *Live Demo*:*https://example*
 
 ## ScreenShoot
+
+<p align="center">
+  <img src="./images/screenshoots/screenshoot1.png" width="48%" alt="Desktop">
+</p>
 
 ## Author
 
