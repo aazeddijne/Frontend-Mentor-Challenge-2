@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/logo.svg" />
+    <link rel="stylesheet" href="../style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&amp;display=swap" rel="stylesheet" />
+
+    <title>Frontend Mentor | Clipboard en español</title>
+  </head>
+  <body>
+    <main>
+      <!-- section header | contains the website and title with CTA -->
+      <header>
+        <!-- menu list for language -->
+        <div class="navs-up">
+          <div class="menu-list opened">
+            <img class="logo-bar open" src="../images/language-translate-svgrepo-com.svg" width="20px" alt="logo open" />
+            <img class="close" src="../images/close-circle-svgrepo-com.svg" width="20px" alt="logo close" />
+            
+            <nav aria-label="list-language" class="menu">
+              <div class="language">
+                <p>
+                  <img src="../images/language-translate-svgrepo-com.svg" width="30px" alt="language" /> Idioma
+                </p>
+              </div>
+              <ul>
+                <li>
+                  <a href="../index.html"><img src="../images/usa-svgrepo-com.svg" width="30px" alt="english" />English </a>
+                </li>
+                <li class="active">
+                  <a href="es.html"><img src="../images/spain-svgrepo-com.svg" width="30px" alt="spain" />Español </a>
+                </li>
+                <li>
+                  <a href="ru.html"><img src="../images/flag-ru-svgrepo-com.svg" width="30px" alt="russian" />Русский</a>
+                </li>
+                <li class="">
+                  <a href="zh.html">
+                    <img alt="chinese" src="../images/china-svgrepo-com.svg" width="30px" />
+                    中文
+                  </a>
+                </li>
+                <li class="">
+                  <a href="ar.html">
+                    <img alt="arabic" src="../images/saudi-arabia-svgrepo-com.svg" width="30px" />
+                    العربية
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="dark-mode dark">
+            <img class="opens" src="../images/dark-mode-night-moon-svgrepo-com.svg" width="20px" alt="logo night moon mode" />
+          </div>
+          <a href="https://github.com/aazeddijne" target="_blank">
+            <div class="github">
+              <img src="../images/github-142-svgrepo-com.svg" width="20px" alt="logo github" />
+            </div>
+          </a>
+        </div>
+
+        <div class="container" id="home">
+          <div class="logo">
+            <!-- I used the figure and figcaption elements to organize the instructions -->
+            <figure>
+              <img class="header-mobile" src="../images/bg-header-mobile.png" alt="image for header mobile" />
+              <figcaption>
+                <img class="logo-image" src="../images/logo.svg" alt="logo" />
+                <h1>
+                  Todo lo que copias, siempre contigo
+                </h1>
+                <p>
+                  Clipboard te ayuda a guardar y organizar todo lo que copias. 
+                  Accede a tus contenidos al instante desde cualquier dispositivo.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </header>
+
+      <!-- section (one) -->
+      <section class="section-mac">
+        <!-- two buttons of IOS & Mac -->
+        <div class="CTA">
+          <button class="IOS">
+            <span>Descargar para iOS</span> 
+            <img src="../images/ios-svgrepo-com.svg" width="30px" alt="ios logo" />
+          </button>
+          <button class="Mac">
+            <span>Descargar para Mac</span>
+            <img src="../images/mac-screen-svgrepo-com.svg" width="30px" alt="mac logo" />
+          </button>
+        </div>
+        <div class="main-heading">
+          <h2>
+            Tus fragmentos, bajo control
+          </h2>
+          <p>
+            Clipboard guarda al instante en la nube todo lo que copias, 
+            para que puedas acceder a tus fragmentos desde cualquier dispositivo. 
+            Nuestras apps para Mac e iOS te ayudan a tenerlo todo organizado.
+          </p>
+        </div>
+        <div class="img-description">
+          <div class="image">
+            <img src="../images/image-computer.png" alt="image computer" />
+          </div>
+          <div class="descirption">  
+            <div class="mac-details">
+              <h2>
+                <img class="bright1" src="../images/search-window-svgrepo-com.svg" width="30px" alt="search logo" />
+                <span>Búsqueda rápida</span>
+              </h2>
+              <p>
+                Encuentra tus fragmentos por contenido, categoría, dirección web, aplicación y mucho más.
+              </p>
+            </div>
+            <div class="mac-details">
+              <h2>
+                <img class="bright2" src="../images/icloud-svgrepo-com.svg" width="30px" alt="icloud logo" />
+                <span>Sincronización con iCloud</span>
+              </h2>
+              <p>
+                Guarda y sincroniza tus fragmentos al instante en todos tus dispositivos.
+              </p>
+            </div>
+            <div class="mac-details">
+              <h2>
+                <img class="bright3" src="../images/history-2-svgrepo-com.svg" width="30px" alt="history logo" />
+                <span>Historial completo</span>
+              </h2>
+              <p>
+                Recupera cualquier fragmento, incluso desde el primer día que usaste la app.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="main-heading-clipboard">
+          <h2>
+            Clipboard, estés donde estés
+          </h2>
+          <p>
+            Estés de viaje o frente al ordenador, puedes acceder a todos tus 
+            fragmentos de Clipboard con solo unos clics.
+          </p>
+        </div>
+        <div class="clipboard-description">
+          <div class="image">
+            <img src="../images/image-devices.png" width="100px" alt="image devices" />
+          </div>
+          <div class="clipboard-details">
+            <h2>
+              Dale un impulso a tu trabajo
+            </h2>
+            <p>
+              Tenemos las herramientas para que trabajes mejor y más rápido.
+            </p>
+          </div>
+          <div class="clipboard-descirption">   
+            <div class="clipboard">
+              <img src="../images/icon-blacklist.svg" alt="icon blacklists" />
+              <h2>
+                Crea listas de exclusión
+              </h2>
+              <p>
+                Evita que la información confidencial acabe en tu portapapeles.
+              </p>
+            </div>
+            <div class="clipboard">
+              <img src="../images/icon-text.svg" alt="icon text" />
+              <h2>
+                Fragmentos de texto sin formato
+              </h2>
+              <p>
+                Elimina formatos innecesarios y mantén tus textos siempre uniformes.
+              </p>
+            </div>
+            <div class="clipboard">
+              <img src="../images/icon-preview.svg" alt="icon preview" />
+              <h2>
+                Vista previa rápida
+              </h2>
+              <p>
+                Echa un vistazo a tus fragmentos sin tener que abrirlos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section for brand logo companies -->
+      <section class="logo-companies">
+        <div class="brand-logo">
+          <img src="../images/logo-google.png" alt="logo google" />
+          <img src="../images/logo-ibm.png" alt="logo ibm" />
+          <img src="../images/logo-microsoft.png" alt="logo microsoft" />
+          <img src="../images/logo-hp.png" alt="logo hewlett packard" />
+          <img src="../images/logo-vector-graphics.png" alt="logo vector graphic" />
+        </div>
+      </section>
+
+      <!-- section clipboard for IOS and Mac OS -->
+      <section class="clipboard-os">
+        <h2>
+          Clipboard para iOS y macOS
+        </h2>
+        <p>
+          Disponible gratis en la App Store. Descárgalo para Mac o iOS, sincroniza con iCloud 
+          y empieza a guardar lo que quieras en tu portapapeles.
+        </p>
+        <div class="CTA">
+          <button class="IOS">
+            <span>Descargar para iOS</span>
+            <img src="../images/ios-svgrepo-com.svg" width="30px" alt="ios logo" />
+          </button>
+          <button class="Mac">
+            <span>Descargar para Mac</span>
+            <img src="../images/mac-screen-svgrepo-com.svg" width="30px" alt="mac logo" />
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <a href="#home">
+        <img class="nav-logo" src="../images/logo.svg" alt="logo" />
+      </a>
+      <nav aria-label="footer-nav">
+        <ul>
+          <li><a href="#"><span>FAQs</span></a></li>
+          <li><a href="#"><span>Contacto</span></a></li>
+          <li><a href="#"><span>Privacidad</span></a></li>
+          <li><a href="#"><span>Prensa</span></a></li>
+          <li><a href="#"><span>Guía de instalación</span></a></li>
+        </ul>
+      </nav>
+      <!-- for social -->
+      <div class="social">
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/aazeddijne/" target="_blank"><img src="../images/instagram-2-1-logo-svgrepo-com.svg" width="30px" alt="logo instagram" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/aazeddijne" target="_blank"><img class="bright4" src="../images/github-142-svgrepo-com.svg" width="30px" alt="logo github" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/azeddine-zahraoui-131079431/" target="_blank"><img src="../images/linkedin-svgrepo-com.svg" width="30px" alt="logo linkedin" /></a>
+          </li>
+          <li>
+            <a href="https://www.freecodecamp.org/aazeddijne" target="_blank"><img class="bright5" src="../images/freecodecamp-svgrepo-com.svg" width="30px" alt="logo freecodecamp" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        Desafío de <a class="bright6" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 
+        Desarrollado por <a class="bright7" href="https://www.linkedin.com/in/azeddine-zahraoui-131079431/" target="_blank">Azeddine Zahraoui</a>
+      </div>
+    </footer>
+
+    <!-- javascript -->
+    <script src="langue.js"></script>
+  </body>
+</html>

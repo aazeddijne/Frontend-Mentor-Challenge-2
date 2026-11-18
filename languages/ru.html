@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!-- displays site properly based on user's device -->
+    <link href="../images/logo.svg" rel="icon" sizes="32x32" type="image/png" />
+    <link href="../style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&amp;display=swap" rel="stylesheet" />
+    <title>Frontend Mentor | Clipboard на русском</title>
+  </head>
+  <body>
+    <main>
+      <!-- section header | contains the website and title with CTA -->
+      <header>
+        <!-- menu list for language -->
+        <div class="navs-up">
+          <div class="menu-list opened">
+            <img alt="logo open" class="logo-bar open" src="../images/language-translate-svgrepo-com.svg" width="20px" />
+            <img alt="logo close" class="close" src="../images/close-circle-svgrepo-com.svg" width="20px" />
+            <nav aria-label="list-language" class="menu">
+              <div class="language">
+                <p>
+                  <img alt="language" src="../images/language-translate-svgrepo-com.svg" width="30px" /> Язык
+                </p>
+              </div>
+              <ul>
+                <li class="">
+                  <a href="../index.html"><img alt="english" src="../images/usa-svgrepo-com.svg" width="30px" />English </a>
+                </li>
+                <li class="">
+                  <a href="es.html"><img alt="spain" src="../images/spain-svgrepo-com.svg" width="30px" />Español </a>
+                </li>
+                <li class="active">
+                  <a href="ru.html"><img alt="russian" src="../images/flag-ru-svgrepo-com.svg" width="30px" />Русский</a>
+                </li>
+                <li class="">
+                  <a href="zh.html">
+                    <img alt="russian" src="../images/china-svgrepo-com.svg" width="30px" />
+                    中文
+                  </a>
+                </li>
+                <li class="">
+                  <a href="ar.html">
+                    <img alt="russian" src="../images/saudi-arabia-svgrepo-com.svg" width="30px" />
+                    العربية
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="dark-mode dark">
+            <img alt="logo night moon mode" class="opens" src="../images/dark-mode-night-moon-svgrepo-com.svg" width="20px" />
+          </div>
+          <a href="https://github.com/aazeddijne" target="_blank">
+            <div class="github">
+              <img alt="logo night moon mode" src="../images/github-142-svgrepo-com.svg" width="20px" />
+            </div>
+          </a>
+        </div>
+        <div class="container" id="home">
+          <div class="logo">
+            <!-- I used the figure and figcaption elements to organize the instructions -->
+            <figure>
+              <img alt="image for header mobile" class="header-mobile" src="../images/bg-header-mobile.png" />
+              <figcaption>
+                <img alt="logo" class="logo-image" src="../images/logo.svg" />
+                <h1>
+                  Всё, что вы копируете, всегда под рукой
+                </h1>
+                <p>
+                  Clipboard помогает сохранять и упорядочивать всё, что вы копируете.
+                  Мгновенный доступ к вашим материалам с любого устройства.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </header>
+      
+      <br />
+      <br />
+      
+      <!-- section (one) -->
+      <section class="section-mac">
+        <!-- two buttons of IOS & Mac -->
+        <div class="CTA">
+          <button class="IOS">
+            <span>Скачать для iOS</span>
+            <img alt="ios logo" src="../images/ios-svgrepo-com.svg" width="30px" />
+          </button>
+          <button class="Mac">
+            <span>Скачать для Mac</span>
+            <img alt="ios logo" src="../images/mac-screen-svgrepo-com.svg" width="30px" />
+          </button>
+        </div>
+        <div class="main-heading">
+          <h2>
+            Всё важное — под контролем
+          </h2>
+          <p>
+            Clipboard мгновенно сохраняет скопированное в облаке,
+            чтобы нужные фрагменты были доступны на любом устройстве.
+            Приложения для Mac и iOS помогут поддерживать порядок.
+          </p>
+        </div>
+        <div class="img-description">
+          <div class="image">
+            <img alt="image computer" src="../images/image-computer.png" />
+          </div>
+          <div class="descirption">
+            <div class="mac-details">
+              <h2>
+                <img alt="search logo" class="bright1" src="../images/search-window-svgrepo-com.svg" width="30px" />
+                <span>Быстрый поиск</span>
+              </h2>
+              <p>
+                Находите фрагменты по содержимому, категории, адресу сайта, приложению и не только.
+              </p>
+            </div>
+            <div class="mac-details">
+              <h2>
+                <img alt="icloud logo" class="bright2" src="../images/icloud-svgrepo-com.svg" width="30px" />
+                <span>Синхронизация с iCloud</span>
+              </h2>
+              <p>
+                Мгновенно сохраняйте и синхронизируйте фрагменты на всех устройствах.
+              </p>
+            </div>
+            <div class="mac-details">
+              <h2>
+                <img alt="history logo" class="bright3" src="../images/history-2-svgrepo-com.svg" width="30px" />
+                <span>Вся история</span>
+              </h2>
+              <p>
+                Возвращайтесь к любому фрагменту, даже сохранённому в первый день.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="main-heading-clipboard">
+          <h2>
+            Clipboard всегда рядом
+          </h2>
+          <p>
+            В дороге или за компьютером — все ваши фрагменты
+            Clipboard доступны всего за пару кликов.
+          </p>
+        </div>
+        <div class="clipboard-description">
+          <div class="image">
+            <img alt="image devices" src="../images/image-devices.png" width="100px" />
+          </div>
+          <div class="clipboard-details">
+            <h2>
+              Работайте ещё эффективнее
+            </h2>
+            <p>
+              У нас есть всё, чтобы вы работали быстрее и удобнее.
+            </p>
+          </div>
+          <div class="clipboard-descirption">
+            <div class="clipboard">
+              <img alt="icon blacklists" src="../images/icon-blacklist.svg" />
+              <h2>
+                Списки исключений
+              </h2>
+              <p>
+                Не допускайте попадания личных данных в буфер обмена.
+              </p>
+            </div>
+            <div class="clipboard">
+              <img alt="icon text" src="../images/icon-text.svg" />
+              <h2>
+                Текст без форматирования
+              </h2>
+              <p>
+                Убирайте лишнее оформление и сохраняйте единый стиль текста.
+              </p>
+            </div>
+            <div class="clipboard">
+              <img alt="icon preview" src="../images/icon-preview.svg" />
+              <h2>
+                Быстрый просмотр
+              </h2>
+              <p>
+                Просматривайте фрагменты, не открывая их.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section for brand logo companies -->
+      <section class="logo-companies">
+        <div class="brand-logo">
+          <img alt="logo google" src="../images/logo-google.png" />
+          <img alt="logo ibm" src="../images/logo-ibm.png" />
+          <img alt="logo microsoft" src="../images/logo-microsoft.png" />
+          <img alt="logo hewlett packard" src="../images/logo-hp.png" />
+          <img alt="logo vector graphic" src="../images/logo-vector-graphics.png" />
+        </div>
+      </section>
+
+      <!-- section clipboard for IOS and Mac OS -->
+      <section class="clipboard-os">
+        <h2>
+          Clipboard для iOS и macOS
+        </h2>
+        <p>
+          Бесплатно в App Store. Скачайте приложение для Mac или iOS,
+          включите синхронизацию с iCloud и сохраняйте всё нужное.
+        </p>
+        <div class="CTA">
+          <button class="IOS">
+            <span>Скачать для iOS</span>
+            <img alt="ios logo" src="../images/ios-svgrepo-com.svg" width="30px" />
+          </button>
+          <button class="Mac">
+            <span>Скачать для Mac</span>
+            <img alt="mac logo" src="../images/mac-screen-svgrepo-com.svg" width="30px" />
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <a href="#home">
+        <img alt="logo" class="nav-logo" src="../images/logo.svg" />
+      </a>
+      <nav aria-label="footer-nav">
+        <ul>
+          <li><a href="#"><span>Вопросы и ответы</span></a></li>
+          <li><a href="#"><span>Контакты</span></a></li>
+          <li><a href="#"><span>Конфиденциальность</span></a></li>
+          <li><a href="#"><span>Для прессы</span></a></li>
+          <li><a href="#"><span>Как установить</span></a></li>
+        </ul>
+      </nav>
+      <!-- for social -->
+      <div class="social">
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/aazeddijne/" target="_blank"><img alt="logo facebook" src="../images/instagram-2-1-logo-svgrepo-com.svg" width="30px" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/aazeddijne" target="_blank"><img alt="logo twitter" class="bright4" src="../images/github-142-svgrepo-com.svg" width="30px" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/azeddine-zahraoui-131079431/" target="_blank"><img alt="logo twitter" src="../images/linkedin-svgrepo-com.svg" width="30px" /></a>
+          </li>
+          <li>
+            <a href="https://www.freecodecamp.org/aazeddijne" target="_blank"><img alt="logo twitter" class="bright5" src="../images/freecodecamp-svgrepo-com.svg" width="30px" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        Задание от <a class="bright6" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 
+        Разработал <a class="bright7" href="https://www.linkedin.com/in/azeddine-zahraoui-131079431/" target="_blank">Azeddine Zahraoui</a>
+      </div>
+    </footer>
+    <!-- javascript -->
+    <script src="langue.js"></script>
+  </body>
+</html>
