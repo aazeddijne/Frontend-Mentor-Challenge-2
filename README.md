@@ -123,7 +123,7 @@ I used these suggestions to support my learning while practicing and implementin
 ## ScreenShoot
 
 <p align="center">
-  <img src="./images/screenshoot/screenshoot1.png" width="48%" alt="Desktop">
+  <img src="./images/screenshoot/Screenshoot1.png" width="48%" alt="Desktop">
 </p>
 
 ## Author
